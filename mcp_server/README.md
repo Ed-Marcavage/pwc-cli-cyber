@@ -1,4 +1,17 @@
-# pwc MCP server
+# Papers With Code Cyber MCP
+
+Connect to the public, read-only Cyber server at
+<https://paperswithcode-cyber.com/mcp>.
+[Browse the catalog](https://paperswithcode-cyber.com) ·
+[Source](https://github.com/Ed-Marcavage/pwc-cli-cyber) ·
+[Issues](https://github.com/Ed-Marcavage/pwc-cli-cyber/issues)
+
+To reproduce the hosted Cyber server, follow the
+[Cyber build instructions](https://github.com/Ed-Marcavage/paperswithcode-cyber/blob/main/local-dev/README.md).
+That build adds catalog facets and developer tools and sets the Cyber API and
+website URLs. The base-server reference below describes upstream behavior.
+
+## Base server reference
 
 Anonymous, read-only Model Context Protocol access to the public
 [Papers With Code](https://paperswithcode.co) catalog.

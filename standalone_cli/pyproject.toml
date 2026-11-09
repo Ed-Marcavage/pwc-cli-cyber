@@ -1,11 +1,17 @@
 [project]
 name = "pwc-cli"
 version = "0.4.6"
-description = "Papers With Code research and paper-editing CLI"
+description = "CLI for Papers With Code Cyber cybersecurity research"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
 dependencies = []
+
+[project.urls]
+Homepage = "https://paperswithcode-cyber.com"
+Repository = "https://github.com/Ed-Marcavage/pwc-cli-cyber"
+Issues = "https://github.com/Ed-Marcavage/pwc-cli-cyber/issues"
+Documentation = "https://paperswithcode-cyber.com/mcp"
 
 [project.scripts]
 pwc = "pwc_cli.cli:main"

@@ -1,4 +1,22 @@
-# pwc CLI
+# Papers With Code Cyber CLI
+
+[Website](https://paperswithcode-cyber.com) ·
+[Source](https://github.com/Ed-Marcavage/pwc-cli-cyber) ·
+[Issues](https://github.com/Ed-Marcavage/pwc-cli-cyber/issues)
+
+Select the Cyber catalog explicitly; the shared client retains its upstream
+API default when this variable is unset:
+
+```bash
+export PWC_API_URL=https://paperswithcode-cyber.com/api/v1
+pwc search EVMbench --mode keyword
+```
+
+The Cyber API supports public reads and keyword search. The command reference
+below is shared with upstream; its editing and semantic-search features are
+not enabled on the Cyber deployment.
+
+## Shared CLI command reference
 
 A lightweight, read-only client for the public Papers With Code catalog API.
 Public reads are anonymous: no login or token is required.

@@ -1,7 +1,7 @@
 [project]
 name = "pwc-mcp"
 version = "0.2.12"
-description = "Read-only Papers With Code MCP server"
+description = "Read-only MCP server for the Papers With Code Cyber catalog"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "Apache-2.0"}
@@ -12,6 +12,12 @@ dependencies = [
   "starlette>=0.47,<1",
   "uvicorn>=0.35,<1",
 ]
+
+[project.urls]
+Homepage = "https://paperswithcode-cyber.com"
+Repository = "https://github.com/Ed-Marcavage/pwc-cli-cyber"
+Issues = "https://github.com/Ed-Marcavage/pwc-cli-cyber/issues"
+Documentation = "https://paperswithcode-cyber.com/mcp"
 
 [project.scripts]
 pwc-mcp = "pwc_mcp.app:main"
