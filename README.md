@@ -9,6 +9,10 @@ Connect an AI assistant to the read-only MCP server or query from your terminal,
 [Website source](https://github.com/Ed-Marcavage/paperswithcode-cyber) ·
 [Report an issue](https://github.com/Ed-Marcavage/pwc-cli-cyber/issues)
 
+[![Browse cybersecurity papers, code, and benchmarks in Papers With Code Cyber](https://raw.githubusercontent.com/Ed-Marcavage/paperswithcode-cyber/d9d7467dc8be7ed72c769da85bc832727212a094/docs/media/catalog-preview.gif)](https://paperswithcode-cyber.com)
+
+- Prefer the web UI? [Explore Papers With Code Cyber](https://paperswithcode-cyber.com) to browse and filter the same catalog available through CLI and MCP.
+
 This is the Cyber fork of [Hugging Face's pwc-cli](https://github.com/huggingface/pwc-cli).
 The hosted Cyber catalog and MCP are public and read-only; neither requires an
 account or API key.
