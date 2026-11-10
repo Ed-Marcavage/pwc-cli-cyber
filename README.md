@@ -1,9 +1,8 @@
 # Papers With Code Cyber — CLI and MCP
 
-Find cybersecurity papers, engineering blogs, and open-source security agent
-harnesses from your terminal or personal AI assistant. Explore red-team tools,
-penetration testing, exploit validation, vulnerability research, binary analysis,
-and security benchmarks with links to original sources and code.
+Search cybersecurity papers, code, and benchmarks through CLI or MCP. Find AI pentesting tools and security agent harnesses for code audit, vulnerability discovery, fuzzing, and reverse engineering in the Papers With Code Cyber catalog.
+
+Connect an AI assistant to the read-only MCP server or query from your terminal, with links to original papers and repositories.
 
 [Browse the website](https://paperswithcode-cyber.com) ·
 [MCP setup](https://paperswithcode-cyber.com/mcp) ·
